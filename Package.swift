@@ -7,9 +7,9 @@ let package = Package(
     products: [
         .library(
             name: "Full",
-            targets: ["FullStage"]),
+            targets: ["Full"]),
     ],
     targets: [
-        .binaryTarget(name: "FullStage", url: "https://pods.regulaforensics.com/Stage/FullStage/9.7.19632/DocumentReaderCoreStage_full_9.7.19632.zip", checksum: "327a64ed5e6770f607824c262dde47f281d3ae6884e4dfdcfe1a9de0676961e3"),
+        .binaryTarget(name: "Full", url: "https://pods.regulaforensics.com/Full/9.7.19695/DocumentReaderCore_full_9.7.19695.zip", checksum: "0d587de33616bdbfc48126df1b01a65c75d5fddc011b058e5794616b16ff1cbc"),
     ]
 )
